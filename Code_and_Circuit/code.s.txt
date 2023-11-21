@@ -1,0 +1,8 @@
+addiu $1, $0, 0x26
+addiu $1, $1, 0x26
+addiu $1, $1, 0x4C
+addiu $1, $1, 0x4C
+
+andi $2, $1, 0xFF
+
+sw $2, 0($3)
